@@ -18,6 +18,9 @@
    fastfetch
    git
    gnome-software
+   deno
+   scala
+   scala-cli
   ];
 
   programs.firefox.enable = true;
@@ -25,5 +28,19 @@
     enable = true;
     remotePlay.openFirewall = true;
     dedicatedServer.openFirewall = true;
+  };
+
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+      stdenv.cc.cc
+      zlib
+      fuse3
+      icu
+      nss
+      openssl
+      curl
+      expat
+    ];
   };
 }
