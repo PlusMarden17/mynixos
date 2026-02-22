@@ -14,13 +14,13 @@
    vscode
    jdk21
    btop
-   powertop
    fastfetch
    git
    gnome-software
    deno
    scala
    scala-cli
+   sbt
   ];
 
   programs.firefox.enable = true;
