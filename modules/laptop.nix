@@ -26,6 +26,11 @@
     };
   };
 
+  hardware.bluetooth = {
+    enable = true;
+    powerOnBoot = false;
+  };
+
   # Battery
   services.thermald.enable = true;
   services.tlp = {
