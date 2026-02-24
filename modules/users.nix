@@ -12,15 +12,19 @@
   # Packages
   environment.systemPackages = with pkgs; [
    vscode
-   jdk21
    btop
    fastfetch
    git
    gnome-software
+
+   jdk21
    deno
    scala
    scala-cli
    sbt
+
+   materia-theme
+   papirus-icon-theme
   ];
 
   programs.firefox.enable = true;
