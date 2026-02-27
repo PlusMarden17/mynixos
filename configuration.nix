@@ -8,6 +8,7 @@
       ./modules/desktop.nix
       ./modules/services.nix
       ./modules/users.nix
+      ./modules/packages.nix
     ];
 
   # System settings
