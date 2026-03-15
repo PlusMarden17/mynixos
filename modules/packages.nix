@@ -9,7 +9,6 @@
    gnome-software
 
    jdk21
-   deno
    scala
    scala-cli
    sbt
