@@ -13,6 +13,8 @@
    scala
    scala-cli
    sbt
+   clojure
+   leiningen
 
    materia-theme
    papirus-icon-theme
